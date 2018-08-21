@@ -1,4 +1,4 @@
-/** 
+/**
  * A class to communicate a BLE Gamepad device
  */
 #include "MicroBit.h"
@@ -10,7 +10,7 @@
 #include "HIDDeviceInformationService.h"
 #endif
 #include "BluetoothGamepadService.h"
-#include "USBHID_Types.h"
+#include "USBHID_types.h"
 
 namespace
 {
