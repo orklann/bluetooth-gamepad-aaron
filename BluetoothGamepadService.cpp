@@ -153,6 +153,7 @@ void BluetoothGamepadService::startService()
 
 void BluetoothGamepadService::startAdvertise()
 {
+    return ;
     ble.gap().stopAdvertising();
     ble.gap().clearAdvertisingPayload();
 
