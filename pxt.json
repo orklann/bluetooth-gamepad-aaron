@@ -1,6 +1,6 @@
 {
-    "name": "bluetooth-gamepad",
-    "version": "0.0.3",
+    "name": "bluetooth-gamepad-aaron",
+    "version": "0.0.1",
     "description": "A Bluetooth Gamepad service",
     "license": "MIT",
     "dependencies": {
@@ -32,7 +32,7 @@
         "BluetoothGamepadService.h",
         "HIDDeviceInformationService.h",
         "HIDBatteryService.h",
-        "USBHID_Types.h",
+        "USBHID_types.h",
         "gamepad.cpp",
         "shims.d.ts",
         "enums.d.ts"
