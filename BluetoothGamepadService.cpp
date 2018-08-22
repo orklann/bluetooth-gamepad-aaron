@@ -117,7 +117,7 @@ void BluetoothGamepadService::startService()
                                                 GattCharacteristic::BLE_GATT_CHAR_PROPERTIES_READ,
                                                 reportMapDescriptors, 1);
 
-    GattCharacteristic hidInformationCharacteristic(GattCharacteristic::UUID_HID_INFORMATION_CHAR,
+    GattCharacteristic hidInformationCharacteristic("Gamepad #1"/*GattCharacteristic::UUID_HID_INFORMATION_CHAR*/,
                                                                              const_cast<uint8_t *>(RESPONSE_HID_INFORMATION), sizeof(RESPONSE_HID_INFORMATION), sizeof(RESPONSE_HID_INFORMATION),
                                                                              GattCharacteristic::BLE_GATT_CHAR_PROPERTIES_READ);
 
