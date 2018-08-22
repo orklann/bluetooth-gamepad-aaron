@@ -93,7 +93,7 @@ void BluetoothGamepadService::startService()
     pnpID.productID = 0x0204;
     pnpID.productVersion = 0x0100;
 
-    HIDDeviceInformationService hidDeviceInformationService(ble, "BBC", "uBit", &pnpID);
+    HIDDeviceInformationService hidDeviceInformationService(ble, "BBC-Gamepad", "uBit", &pnpID);
 #endif
 
     // Gamepad Service

@@ -96,4 +96,3 @@ protected:
 };
 
 #endif /* #ifndef __BLE_HID_DEVICE_INFORMATION_SERVICE_H__*/
-
