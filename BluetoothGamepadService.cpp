@@ -171,7 +171,7 @@ void BluetoothGamepadService::startAdvertise()
     uint16_t maxInterval = minInterval * 2;
     Gap::ConnectionParams_t params = {minInterval, maxInterval, 0, 3200}; // timeout in 32 seconds
     ble.gap().setPreferredConnectionParams(&params);
-
+    ble.gap().setDeviceName((const uint8_t *)"Micro Gamepad");
     ble.gap().setAdvertisingType(GapAdvertisingParams::ADV_CONNECTABLE_UNDIRECTED);
     ble.gap().setAdvertisingInterval(50);
     ble.gap().setAdvertisingPolicyMode(Gap::ADV_POLICY_IGNORE_WHITELIST);
